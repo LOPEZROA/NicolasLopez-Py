@@ -27,7 +27,6 @@
   <br>
   <img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=matplotlib&logoColor=black" alt="Matplotlib">
   <img src="https://img.shields.io/badge/Seaborn-4c6a9c?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
 
 </div>
 
@@ -36,7 +35,7 @@
 
 | Proyecto | Descripción | Tags |
 | :--- | :--- | :--- |
-| [**🚢 Análisis del Titanic**] | Modelo predictivo de supervivencia usando Random Forest y análisis estadístico de variables. | `ML` `Clasificación` |
+| [**🚢 Análisis del Titanic**] | Machine Learning para predecir la supervivencia de los pasajeros del Titanic | `ML` `Clasificación` |
 
 ---
 
