@@ -43,7 +43,7 @@ Aquí puedes listar tus carpetas. Te sugiero usar una tabla para que se vea orde
 ---
 <div align="center">
   <small>Gracias por visitar mi repositorio. ¡No dudes en conectar!</small><br>
-  <a href="[LINK_A_TU_LINKEDIN](www.linkedin.com/in/nicolás-lópez-roa-98a5a818b)">
+  <a href="(www.linkedin.com/in/nicolás-lópez-roa-98a5a818b)">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </div>
