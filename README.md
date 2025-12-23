@@ -32,9 +32,7 @@
 </div>
 
 ---
-## 🗂️ Índice de Proyectos Destacados
-
-Aquí puedes listar tus carpetas. Te sugiero usar una tabla para que se vea ordenado:
+## 🗂️ Índice de Proyectos
 
 | Proyecto | Descripción | Tags |
 | :--- | :--- | :--- |
