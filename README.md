@@ -38,7 +38,7 @@ Aquí puedes listar tus carpetas. Te sugiero usar una tabla para que se vea orde
 
 | Proyecto | Descripción | Tags |
 | :--- | :--- | :--- |
-| [**🚢 Análisis del Titanic**](./Machine_learning_-_Titanic) | Modelo predictivo de supervivencia usando Random Forest y análisis estadístico de variables. | `ML` `Clasificación` |
+| [**🚢 Análisis del Titanic**](./Machine learning - Titanic) | Modelo predictivo de supervivencia usando Random Forest y análisis estadístico de variables. | `ML` `Clasificación` |
 
 ---
 
