@@ -42,3 +42,5 @@ from sklearn.ensemble import RandomForestClassifier
 
 model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=1)
 model.fit(X_train, y_train)
+
+Enlace: https://www.kaggle.com/competitions/titanic/overview
