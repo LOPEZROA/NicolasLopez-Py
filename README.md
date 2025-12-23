@@ -15,6 +15,8 @@ Este proyecto utiliza técnicas de **Machine Learning** para predecir la supervi
 
 El objetivo es desarrollar un modelo de clasificación binaria capaz de generalizar patrones de supervivencia con alta precisión.
 
+Enlace: https://www.kaggle.com/competitions/titanic/overview
+
 ## ⚙️ Tecnologías y Herramientas
 * **Lenguaje:** Python
 * **Librerías:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.
@@ -43,4 +45,4 @@ from sklearn.ensemble import RandomForestClassifier
 model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=1)
 model.fit(X_train, y_train)
 
-Enlace: https://www.kaggle.com/competitions/titanic/overview
+
