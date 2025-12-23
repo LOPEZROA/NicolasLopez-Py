@@ -18,18 +18,10 @@ El objetivo es desarrollar un modelo de clasificación binaria capaz de generali
 ## ⚙️ Tecnologías y Herramientas
 * **Lenguaje:** Python
 * **Librerías:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.
-* **Entorno:** Jupyter Notebook / VS Code.
+* **Entorno:** VS Code.
 
 ## 📊 Análisis Exploratorio de Datos (EDA)
-Se realizó un análisis exhaustivo para entender la distribución de variables y valores faltantes.
-
-> **Hallazgo Clave:** Se observó una correlación significativa entre la variable `Sex` y la supervivencia, donde el **74% de las mujeres sobrevivieron** frente al 18% de los hombres.
-
-<p align="center">
-  <img src="img/distribucion_edad_clase.png" width="450" alt="Distribución de Edad por Clase">
-  <br>
-  <em>Figura 1: Distribución de edad segmentada por clase de pasajero.</em>
-</p>
+Se realizó un análisis Descriptivo para entender la distribución de variables y valores faltantes.
 
 ## 🛠️ Metodología
 
