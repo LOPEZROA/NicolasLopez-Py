@@ -38,12 +38,12 @@ Aquí puedes listar tus carpetas. Te sugiero usar una tabla para que se vea orde
 
 | Proyecto | Descripción | Tags |
 | :--- | :--- | :--- |
-| [**🚢 Análisis del Titanic**](./Machine learning - Titanic) | Modelo predictivo de supervivencia usando Random Forest y análisis estadístico de variables. | `ML` `Clasificación` |
+| [**🚢 Análisis del Titanic**](./Machine learning - Titanic/) | Modelo predictivo de supervivencia usando Random Forest y análisis estadístico de variables. | `ML` `Clasificación` |
 
 ---
 <div align="center">
   <small>Gracias por visitar mi repositorio. ¡No dudes en conectar!</small><br>
-  <a href="(www.linkedin.com/in/nicolás-lópez-roa-98a5a818b)">
+  <a href="www.linkedin.com/in/nicolás-lópez-roa-98a5a818b">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </div>
