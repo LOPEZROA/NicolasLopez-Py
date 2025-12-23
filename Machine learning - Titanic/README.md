@@ -11,9 +11,9 @@
 </p>
 
 ## 📋 Descripción del Proyecto
-Este proyecto utiliza técnicas de **Machine Learning** para predecir la supervivencia de los pasajeros del Titanic basándose en características demográficas y de viaje (clase, sexo, edad, tarifa, etc.).
+Este proyecto utiliza técnicas de **Machine Learning** para predecir la supervivencia de los pasajeros del Titanic basándose en características del pasajero (clase, sexo, edad, tarifa, etc.).
 
-El objetivo es desarrollar un modelo de clasificación binaria capaz de generalizar patrones de supervivencia con alta precisión.
+El objetivo es desarrollar un modelo que sea capaz de predecir la supervivencia de pasajeros con alta precisión.
 
 Enlace: https://www.kaggle.com/competitions/titanic/overview
 
