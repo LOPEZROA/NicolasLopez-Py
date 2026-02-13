@@ -36,6 +36,8 @@
 | Proyecto | Descripción | Tags |
 | :--- | :--- | :--- |
 | [**🚢 Análisis del Titanic**] | Machine Learning para predecir la supervivencia de los pasajeros del Titanic | `ML` `Clasificación` |
+| [**Aplicación Web HCVB**] | Aplicación Web para automatización de procesamientos de datos, cruces y analisis descriptivo | `Automatización` `Clasificación` `Analisis descriptivo` |
+
 
 ---
 
