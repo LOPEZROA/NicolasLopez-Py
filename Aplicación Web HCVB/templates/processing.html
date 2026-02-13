@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="navline">
+  <a class="backlink" href="{{ url_for('home') }}">← Volver al inicio</a>
+</div>
+
+<h2 class="h2">Procesando archivo</h2>
+
+<div class="panel">
+  <div class="block">
+    <div class="progress">
+      <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+    </div>
+    <div id="progress-text" class="progress-text">0%</div>
+  </div>
+  <div class="block">
+    <div class="note">Esto puede tardar varios segundos/minutos dependiendo del tamaño del archivo.</div>
+    <div class="note">Espere que culmine la operación.</div>
+  </div>
+</div>
+
+<script>
+  const jobId = "{{ job_id }}";
+  const bar = document.getElementById("progress-bar");
+  const text = document.getElementById("progress-text");
+
+  const redirectUrl = "{{ redirect_url | default('') }}";
+
+  async function poll() {
+    try {
+      const res = await fetch(`/progress/${jobId}`);
+      const data = await res.json();
+
+      if (data.status === "error") {
+        text.textContent = "Error: " + (data.error || "desconocido");
+        return;
+      }
+
+      const pct = data.progress || 0;
+      bar.style.width = `${pct}%`;
+      text.textContent = `${pct}%`;
+
+      if (data.status === "done") {
+        if (redirectUrl && redirectUrl.length > 0) {
+          window.location.href = redirectUrl;
+        } else {
+          window.location.href = `/result/${jobId}`;
+        }
+        return;
+      }
+    } catch (e) {
+      text.textContent = "Reconectando...";
+    }
+
+    setTimeout(poll, 1000);
+  }
+
+  poll();
+</script>
+
+{% endblock %}
