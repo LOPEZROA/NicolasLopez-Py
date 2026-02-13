@@ -76,15 +76,15 @@ UI_BG_FILES = {"img 1.png"}
 # - Cada usuario tenga contraseñas unicas
 # - Opcion de cambiar contraseña
 ALLOWED_RUTS = {
-    "20915266-5",#Nicolas L
-    "19490705-2",#Camila R
-    "12849206-2",#Danitza P
-    "13995202-2",#Paola N
-    "17219114-2",#Camila G
-    "3123456-7",#Doctora
+    "",#Nicolas L
+    "",#Camila R
+    "",#Danitza P
+    "",#Paola N
+    "",#Camila G
+    "",#Doctora
     ""#Hebbel
 }
-LOGIN_PASSWORD = os.getenv("APP_PASSWORD", "le2026")
+LOGIN_PASSWORD = os.getenv("APP_PASSWORD", "PASSWORD")
 
 VERIFY_FIELDS: Dict[str, List[str]] = {
     "SERV_SALUD": ["SERV_SALUD", "serv_salud"],
@@ -3919,6 +3919,7 @@ def calculo_mediana():
         fecha_p75_input={cls: "" for cls in class_order},
         ideales_input={cls: "" for cls in class_order},
     )
+
 
 def estadisticas():
     stats = None
